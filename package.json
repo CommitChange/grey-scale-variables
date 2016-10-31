@@ -1,0 +1,17 @@
+{
+  "name": "commitchange",
+  "version": "0.0.1",
+  "description": "grey-scale variables for styles",
+  "style": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CommitChange/grey-scale-variables.git"
+  },
+  "keywords": [ "grey-scale" ],
+  "author": "Yutaka Houlette",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CommitChange/grey-scale-variables/issues"
+  },
+  "homepage": "https://github.com/CommitChange/grey-scale-variables#readme"
+}
