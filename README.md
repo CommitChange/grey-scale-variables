@@ -47,7 +47,7 @@ module.exports = {
 
 index.css
 ```css
-@import 'grey-scale-variables';
+@import '@commitchange/grey-scale-variables';
 
 body {
 	background: $grey-1;
