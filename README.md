@@ -25,10 +25,12 @@ package.json
     "watch-css": "postcss -c postcss-config.js -w"
    },
   "devDependencies": {
-    "postcss": "5.2.4",
-    "postcss-cli": "2.6.0",
-    "postcss-import": "8.1.2",
-    "precss": "1.4.0"
+    "postcss",
+    "postcss-cli",
+    "postcss-import",
+    "precss",
+    "postcss-color-function",
+    "@commitchange/grey-scale-variables"
   }
   etc...
 }
@@ -37,7 +39,7 @@ package.json
 postcss-config.js
 ```javascript
 module.exports = {
-  use: ['postcss-import', 'precss']
+  use: ['postcss-import', 'precss', 'postcss-color-function']
 , 'local-plugins' : true
 , input: 'index.css'
 , output: 'build.css'
@@ -46,7 +48,7 @@ module.exports = {
 
 index.css
 ```css
-@import 'grey-scale-variables';
+@import '@commitchange/grey-scale-variables';
 
 body {
 	background: $grey-1;
