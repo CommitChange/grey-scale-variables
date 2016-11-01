@@ -1,6 +1,6 @@
 {
   "name": "@commitchange/grey-scale-variables",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "grey-scale variables for styles",
   "style": "index.css",
   "repository": {
